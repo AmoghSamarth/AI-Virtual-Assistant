@@ -2,20 +2,22 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "",
-  "homepage": "https://github.com/AmoghSamarth/AI-Virtual_Assistant#readme",
+  "homepage": "https://github.com/AmoghSamarth/AI-Virtual-Assistant#readme",
   "bugs": {
-    "url": "https://github.com/AmoghSamarth/AI-Virtual_Assistant/issues"
+    "url": "https://github.com/AmoghSamarth/AI-Virtual-Assistant/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AmoghSamarth/AI-Virtual_Assistant.git"
+    "url": "git+https://github.com/AmoghSamarth/AI-Virtual-Assistant.git"
   },
   "license": "ISC",
   "author": "Amogh Samarth",
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "nodemon index.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "node --test"
   },
   "dependencies": {
     "bcryptjs": "^3.0.3",
